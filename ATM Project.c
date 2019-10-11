@@ -2,15 +2,17 @@
 #include<conio.h>
 #include<stdlib.h>
 unsigned long amount=10000, deposit, withdraw;
+// here we declared variables to use in our program.
 int option, pin, x, var;
 char transaction ='y';
+
  
 void main()
 {
-	printf("\n                      Welcome to ATM Service                         \n\n\n");
+	printf("\n                      Welcome to ATM Service of PNB Bank                         \n\n\n");
 	while (pin != 1234)
 	{
-		printf("Enter your pin..");
+		printf("Enter your  4 digit pin..");
 		scanf("%d", &pin);
 		if (pin != 1234)
 		printf("Please Enter Your Valid Pin Number\n\n");
@@ -75,6 +77,6 @@ void main()
 		if (transaction == 'n'|| transaction == 'N')
                     var = 1;
 	} while (!var);
-	printf("\n\n Thanks for using our ATM Service.");
+	printf("\n\n Thanks for using our ATM Service of PNB Bank.");
 	getch();
 }
