@@ -7,7 +7,7 @@ char transaction ='y';
  
 void main()
 {
-	printf("\n                      Welcome to ATM Service                         \n\n\n");
+	printf("\n                      Welcome to ATM Service of PNB                         \n\n\n");
 	while (pin != 1234)
 	{
 		printf("Enter your pin..");
